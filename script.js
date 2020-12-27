@@ -14,7 +14,7 @@ function kramer(a11, a12, a13, a21, a22, a23, a31, a32, a33) {
     d2 = determinant(a11, b2, a13, a21, b2, a23, a31, b2, a33);
     d3 = determinant(a11, a12, a13, b1, a22, b3, a31, a32, b3);
 
-    x1 = d1 / d;
+    x1 = (d1 / d,2);
     document.getElementById('x1').value = x1;
     x2 = d2 / d;
     document.getElementById('x2').value = x2;
